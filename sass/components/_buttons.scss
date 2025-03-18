@@ -1,0 +1,23 @@
+button {
+  background-color: $accent-color-500;
+  color: $light-color;
+  padding: 0.5rem 1.5rem;
+  font-family: $text-font;
+  text-transform: uppercase;
+  font-size: $font-size-xs;
+  border: none;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: $accent-color-300;
+  }
+}
+
+.linear-gradient {
+  background: linear-gradient(
+    to right,
+    $accent-color-500,
+    #e7b849,
+    $accent-color-500
+  );
+  padding: 5px;
+}

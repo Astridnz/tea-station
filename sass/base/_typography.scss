@@ -1,0 +1,43 @@
+h1 {
+  font-family: $text-font;
+  color: $light-color;
+  font-size: $font-size-xxl;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+.cursive-green {
+  font-family: $cursive-font;
+  color: $accent-color-500;
+  text-transform: capitalize;
+}
+h2 {
+  font-family: $cursive-font;
+  color: $accent-color-500;
+  font-size: $font-size-l;
+}
+
+h3 {
+  font-family: $text-font;
+  color: $text-color;
+  font-size: $font-size-xl;
+  text-transform: capitalize;
+}
+h4 {
+  font-family: $cursive-font;
+  color: $accent-color-500;
+  font-size: $font-size-m;
+  text-transform: capitalize;
+}
+h5 {
+  font-family: $text-font;
+  color: $text-color;
+  font-size: $font-size-s;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+p {
+  font-family: $text-font;
+  color: $text-color;
+  font-size: $font-size-xs;
+}
