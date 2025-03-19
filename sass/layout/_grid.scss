@@ -4,6 +4,7 @@
   background-color: $background-color;
   display: flex;
   flex-direction: row;
+  // flex-wrap: wrap;
   justify-content: space-around;
   padding: 2rem 0;
   .card-skill {
